@@ -1,115 +1,76 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{dinc2024relaxing,
+  title={Relaxing Conservatism for Enhanced Impedance Range and Transparency in Haptic Interaction},
+  author={Dinc, Huseyin Tugcan and Hulin, Thomas and Ott, Christian and Ryu, Jee-Hwan},
+  journal={IEEE Transactions on Haptics},
+  year={2024},
+  publisher={IEEE},
+  abstract = {The Time Domain Passivity Approach (TDPA) has been ac
+cepted as one of least conservative tools for designing stabilizing controllers
+in haptics and teleoperation, but it still suffers from conservatism because
+it is based on passivity. Additionally, high-frequency, immediate control
+actions lead to a degradation of transparency. In this paper, we propose
+a method to relax the conservatism of haptic interaction and enhance
+stable impedance range while maintaining high transparency. Based on the
+observation of energy exchange behavior in pressing and releasing paths
+in haptic interaction, we introduce an energy cycle as a completion of a
+pressing and releasing path. With this new concept, we compare the energies
+at the end of each energy cycle to estimate the energy generation and inject
+adaptive damping to regulate it over upcoming cycles. Because we wait
+a pressing-releasing cycle is completed, we allow energy to be generated,
+but we regulate the amount of generated energy over upcoming cycles
+by injecting adaptive damping. In this way, we perform low-frequency
+control actions on system dynamics. These in turn enable us to achieve
+high transparency. We show the validity of the proposed approach through
+several simulations and experiments, and show that it enhances the stable
+impedance range and transparency compared to the TDPA.},
+  pdf={toh_paper.pdf}
 }
+@article{dinc2024model,
+  title={Model-Free Energy-Based Friction Compensation for Industrial Collaborative Robots as Haptic Displays},
+  author={Dinc, Huseyin Tugcan and Lee, Joong-Ku and Ryu, Jee-Hwan},
+  journal={IEEE/ASME Transactions on Mechatronics},
+  year={2024},
+  publisher={IEEE},
+  pdf={tmech_paper.pdf}, 
+  abstract = {Collaborative robots are a promising alterna-
+tive to traditional haptic displays due to their expansive
+workspaces, ability to generate substantial forces, and
+cost-effectiveness. However, they have higher levels of fric
+tion compared to conventional haptic displays, which nega
+tively impact the precise movement and accuracy of haptic
+feedback, potentially causing operator fatigue. This article
+proposes a novel model-free, energy-based approach for
+estimating and compensating the friction coefficient. Our
+approach calculates the time-varying impact of frictional
+forces during an energy cycle, defined as the period be-
+tween two consecutive zero crossings of the system’s ki-
+netic energy, based on the energy dissipated by friction.
+This approach directly estimates the friction coefficients,
+based on the chosen friction model, without requiring any
+prior system model information or tuning parameters. The
+effectiveness of our approach is demonstrated through
+single and multi-degree-of-freedom human interaction ex-
+periments using a Franka Emika Panda robot. The results
+indicate that the proposed approach outperforms state-of-
+the-art friction compensation methods.}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
 }
+@inproceedings{park2023enhancing,
+  title={Enhancing Contact Stability in Admittance-Type Haptic Interaction Using Bidirectional Time-Domain Passivity Control},
+  author={Park, Seong-Su and Dinc, Huseyin Tugcan and Lee, Kwang-Hyun and Ryu, Jee-Hwan},
+  booktitle={2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages={2652--2657},
+  year={2023},
+  organization={IEEE}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
 }
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{dinc2022coaxhaptics,
+  title={CoaxHaptics-3RRR: A Novel Coaxial Spherical Parallel Haptic Device},
+  author={Dinc, H{\"u}seyin Tugcan and Hulin, Thomas and Rothammer, Michael and Song, HyeonSeok and Willberg, Bertram and Pleintinger, Benedikt and Ryu, Jee-Hwan and Ott, Christian},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems, IROS 2022},
+  year={2022}
 }
