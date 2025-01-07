@@ -13,8 +13,8 @@ profile:
     <p>291 Daehak-ro</p>
     <p>Daejeon, South Korea</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -22,7 +22,7 @@ I received my **B.Sc. in Mechatronics Engineering** as well as **Electronics Eng
 
 ## Research Interests 
 
-My research interests include **physical-human robot interaction (pHRI)**, oriented about **haptics** and **bilateral teleoperation**. During my Ph.D., I developed an **energy-based control** approach. This approach relaxes conventional **passivity condition** while ensuring system **stability** and maintaining **transparency**. In my postdoctoral careeer, utilizing my experience in **control theory**, I would like to explore interconnections between [control theory and machine learning](https://sites.google.com/view/control-meets-learning/home), and develop **safe and explainable learning strategies** that bring reliability, particularly in **safety-critical** applications.
+My research interests include **physical-human robot interaction (pHRI)**, oriented about **haptics** and **bilateral teleoperation**. During my Ph.D., I developed an **energy-based control** approach. This approach relaxes conventional **passivity condition** while ensuring system **stability** and maintaining **transparency**. In my postdoctoral careeer, utilizing my experience in **control theory**, I would like to explore interconnections between [control theory and machine learning](https://sites.google.com/view/control-meets-learning/home), and develop **safe and explainable learning strategies** that bring reliability, in particular to **safety-critical** applications.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->

@@ -2,96 +2,78 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Huseyin Tugcan Dinc
     - name: Languages
-      value: English, German
+      value: Turkish, English, German (modarate), Korean (modarate)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Robotics
+      institution: Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 'Thesis : Relaxing Passsivity of Physical Human-Robot Interaction : The Energy Cycles Approach'
+    - title: M.Eng. in Mechatronics and Cyber-Physical Systems
+      institution: Technische Hochschule Deggendorf, Deggendorf, Germany
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - 'Thesis : Development of a Parallel Spherical Robotic Mechanism as a Haptic Interaction Device for Telerobotic Applications'
+    - title: M.Sc. in Mechatronics
+      institution: Dokuz Eylul University, Izmir, Turkey
+      year: 2019
+      description:
+    - title: B.Sc. in Mechatronics Eng.(double degree in Electronic Eng)
+      institution: Erciyes University, Kayseri, Turkey
+      year: 2016
+      description:
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant 
+      institution: KAIST, IRiS Lab.
+      year: 2021.03 - PRESENT
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Enhancing stable impendace range in haptic interaction
+        - Increasing back-drivability in impedance-controlled collaborative robots
+        - Guaranteeing contact stability in time-delayed bilateral teleoperation
+    - title: Research Assistant
+      institution: German Aeorospace Center (DLR), Institute of Robotics and Mechatronics
+      year: 2020.03 - 2020.11
+      description:
+        - title : Development of Spherical Parallel Haptic Device (CoaxHaptics-3RRR)
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Kinematic, dynamic, and stifness analysis of 3-DoF spherical manipulator
+            - Multi-objective optimization using genetic algorithm
+            - Manufacturing functional demonstrator
+            - Tests and evaluations regarding workspace, stable impedance range, and dynamic coupling.
+    - title: Research Assistant 
+      institution: Technische Hochshule Deggendorf
+      year: 2019.04 - 2020.01
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Analysis and control of cable-driven parallel robots
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+    - title: Coming soon...
       year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Nonlinear Control
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - <a href="https://arxiv.org/abs/2110.00675">Contraction Theory</a>
+        - Safety-critical Control (CBF, CLF, etc.)
+    - title: Robot Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Deep Reinforcement Learning
+        - <a href="https://cs.nyu.edu/~sumit/publications/assets/ebmtutorial.pdf">Energy-based Learning</a>
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Swimming, Cycling, Equestrianism.
