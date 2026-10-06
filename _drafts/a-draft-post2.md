@@ -8,6 +8,31 @@ categories: sample-posts
 related_posts: false
 ---
 
+\title{On the man's search for meaning}
+
+<!-- General introduction of the topic -->
+What is life? What is meaning? 
+
+<!-- The followup  -->
+Erwin Schroedinger says life is... Human see himself they are on a mission on life to accomplish various duties in order to get food, proper education, and pay bills. 
+
+<!-- What is the issue before and now about searching for the purpose of the life -->
+Unlike ancient times, men now have different problems and desires. The problems keep changing their form with the advances in the science ad technology as per desires. 
+
+Many of them cannot have even think about the life and what they are doing after all. On the other hand, the luck ones, frequently question about what is 
+this overall. 
+
+<!-- When does the problem starts? What does it triggers? What are the conditions that lead to man start thinking?  -->
+In life, there are some critical momnets men start thinking of purpose of the life. What do make them happy? What profession should they carry on? What carreer path shall one pick?
+
+<!-- Is there are any way for man to find his purpose? Would that be possible when he understands the life? -->
+
+<!-- What sort of methodalogy can be developed to achieve the goal or at leat getting closeer? What is the goal? --> 
+
+<!-- It is quite normal to start thinking in some periods of life and it is good for the man as he validates he is a lively creature -->
+
+
+
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine. You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`. If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
 
 To use display mode, again surround your expression with `$$` and place it as a separate paragraph. Here is an example:
