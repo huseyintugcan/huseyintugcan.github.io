@@ -9,26 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-publications",
-          title: "publications",
+  },{id: "nav-publications",
+          title: "Publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Coming very soon..",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
           },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
@@ -37,21 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "news-my-personal-academic-website-has-been-updated",
+        },{id: "news-my-personal-academic-website-has-been-updated",
           title: 'My personal academic website has been updated.',
           description: "",
           section: "News",},{
@@ -59,7 +31,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%68%74%64%69%6E%63@%6B%61%69%73%74.%61%63.%6B%72", "_blank");
+          window.open("mailto:%68%75%65%73%65%79%69%6E.%64%69%6E%63@%74%75%77%69%65%6E.%61%63.%61%74", "_blank");
         },
       },{
         id: 'social-linkedin',
