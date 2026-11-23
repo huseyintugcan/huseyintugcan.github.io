@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>TU Wien, RSL.</p>
-    <p>Gußhaus Str. 27-29</p>
-    <p>Vienna, Austria</p>
+    <p>TU Wien, Automation and Control Institute (ACIN) </p> 
+    </p> Robotic Systems Laboratory </p>
+    </p>Gußhaus Str. 27-29,</p>
+    <p>1040 Vienna, Austria.</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
