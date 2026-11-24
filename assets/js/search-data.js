@@ -26,6 +26,12 @@ ninja.data = [{
         },{id: "news-my-personal-academic-website-has-been-updated",
           title: 'My personal academic website has been updated.',
           description: "",
+          section: "News",},{id: "news-we-have-submitted-a-paper-to-the-control-engineering-practise-paper",
+          title: 'We have submitted a paper to the Control Engineering Practise.   Paper',
+          description: "",
+          section: "News",},{id: "news-i-presented-our-paper-in-ieee-conference-on-telepresence-2026-bristol-uk",
+          title: 'I presented our paper in IEEE Conference on Telepresence 2026, Bristol, UK.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
